@@ -1,0 +1,21 @@
+.hover-change-color:hover {
+  color: #f1557a !important;
+  font-weight: medium !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgb(43, 202, 238) !important;
+  text-decoration-thickness: 1px !important;
+}
+
+/* rgb(14, 126, 10) */
+
+.brand-name {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  margin-left: 0.5em;
+  font-weight: 600;
+  color: #f1557a;
+}
+
+.navbar-collapse {
+  margin-left: -10%;
+}
