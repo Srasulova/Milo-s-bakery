@@ -9,7 +9,7 @@ export default function NavBar() {
       <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
           <a className="navbar-brand ms-5" href="#">
-            <Image src={logo} alt="Logo" width="80" height="80" />
+            <Image src={logo} alt="Logo" width="50" height="50" />
             <span className="brand-name">Milo&apos;s homemade</span>
           </a>
           <button
@@ -30,7 +30,7 @@ export default function NavBar() {
             <ul className="navbar-nav  mb-2 mb-lg-0 ">
               <li className="nav-item mx-4  text-center">
                 <a
-                  className="nav-link active text-info fw-semibold hover-change-color fs-5"
+                  className="nav-link active text-info fw-semibold hover-change-color "
                   aria-current="page"
                   href="#hero-parent-id"
                 >
@@ -39,7 +39,7 @@ export default function NavBar() {
               </li>
               <li className="nav-item mx-4  text-center">
                 <a
-                  className="nav-link text-info fw-semibold hover-change-color fs-5"
+                  className="nav-link text-info fw-semibold hover-change-color "
                   href="#our-menu"
                 >
                   Our menu
@@ -48,7 +48,7 @@ export default function NavBar() {
 
               <li className="nav-item mx-4  text-center">
                 <a
-                  className="nav-link text-info fw-semibold hover-change-color fs-5"
+                  className="nav-link text-info fw-semibold hover-change-color "
                   href="#gallery-title"
                 >
                   Gallery
@@ -57,7 +57,7 @@ export default function NavBar() {
 
               <li className="nav-item mx-4  text-center">
                 <a
-                  className="nav-link text-info fw-semibold hover-change-color fs-5"
+                  className="nav-link text-info fw-semibold hover-change-color "
                   href="#contacts"
                 >
                   Contacts
