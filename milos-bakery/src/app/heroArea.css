@@ -25,15 +25,25 @@
 .quote {
   color: white;
   font-family: "Diphylleia", serif;
-  font-style: italic;
-  line-height: 2em;
-  margin: 12% 8%;
   font-weight: medium;
   text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.8);
-  font-size: 4.5em;
-  word-spacing: 15px;
 }
 
-.last-quote {
-  margin-left: 11%;
+.span-1 {
+  font-size: 2em;
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+  font-weight: bold;
+  word-spacing: 20px;
+}
+
+.span-2-3 {
+  font-size: 0.9em;
+  word-spacing: 10px;
+  margin-left: -2%;
+}
+
+.brand-arc {
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.8));
+  margin-top: 7%;
 }
