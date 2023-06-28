@@ -37,12 +37,22 @@ export default function NavBar() {
                   Home
                 </a>
               </li>
+
               <li className="nav-item mx-4  text-center">
                 <a
                   className="nav-link text-info fw-semibold hover-change-color "
-                  href="#our-menu"
+                  href="#our-products"
                 >
-                  Our menu
+                  Our story
+                </a>
+              </li>
+
+              <li className="nav-item mx-4  text-center">
+                <a
+                  className="nav-link text-info fw-semibold hover-change-color "
+                  href="#our-products"
+                >
+                  Our products
                 </a>
               </li>
 
