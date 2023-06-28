@@ -1,0 +1,34 @@
+.galleryCollapsed {
+  height: 92vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.arrows-div {
+  position: relative;
+  top: -100px;
+  z-index: 1;
+}
+
+.previousImage,
+.nextImage {
+  background: transparent;
+  border: none;
+}
+
+.moreBtn {
+  border: none !important;
+}
+
+.moreBtn:hover {
+  background: none !important;
+  color: rgb(43, 202, 238) !important;
+  font-weight: 800 !important;
+}
+
+.gallery-title {
+  font-family: "Diphylleia", serif;
+  font-size: 4em !important;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
