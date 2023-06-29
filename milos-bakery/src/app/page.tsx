@@ -10,6 +10,7 @@ import GalleryCollapsed from "./galleryCollapsed";
 import GalleryExpanded from "./galleryExpanded";
 import { useState } from "react";
 import OurStory from "./ourStory";
+import OurMenu from "./ourMenu";
 
 export default function Home() {
   const [showGalleryExpanded, setShowGalleryExpaned] = useState(false);
@@ -24,6 +25,7 @@ export default function Home() {
       <HeroArea />
       <OurStory />
       <OurProducts />
+      <OurMenu />
 
       {showGalleryExpanded ? (
         <GalleryExpanded toggleGallery={handleToggleGallery} />
