@@ -7,7 +7,7 @@ import picaderas from "./assets/picaderas.jpg";
 
 export default function OurProducts() {
   return (
-    <div className="ourProducts">
+    <div className="ourProducts pb-5">
       <div className="whatWeMake-main-div container">
         <h2
           className="what-we-make-title text-info fw-bolder pt-4 pb-5 text-center"
@@ -81,12 +81,12 @@ export default function OurProducts() {
               </div>
             </div>
           </div>
-          <button
+          {/* <button
             type="button"
             className="btn btn-outline-danger col-2 mx-auto my-5"
           >
             Open menu
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -1,0 +1,29 @@
+.ourmenu-main-div {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid beige;
+}
+
+.ourmenu-main-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/bakeryPattern.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.09;
+}
+
+.menu-cards {
+  position: relative;
+  z-index: 1;
+}
+
+.lists {
+  list-style: none;
+}
